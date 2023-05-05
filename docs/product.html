@@ -43,7 +43,7 @@
                 <div class="flex items-center justify-between">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600" alt="">
                 </a>
                 <div type="button" class="toggle_menu -m-2.5 rounded-md p-2.5 text-gray-700">
                     <span class="sr-only">Close menu</span>
@@ -64,7 +64,12 @@
             </div>
             </div>
         </header>
-        <main class="grid min-h-full place-items-center -mt-16 bg-white px-6 py-4 sm:py-8 lg:px-8">
+        <main class="grid min-h-full place-items-center bg-white px-6 py-4 sm:py-8 lg:px-8">
+            <div class="text-center">
+                <p class="text-base font-semibold text-blue-600">Proactive messages</p>
+                <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">UTM tags or URL parameters</h1>
+                <p class="mt-6 text-base leading-7 text-gray-600">Visitors with a campaign tag get an alert.</p>
+            </div>
             <div class="bg-white">
                 <div class="pb-16 pt-6 sm:pb-24">
                 <div class="mx-auto mt-8 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -83,36 +88,34 @@
                         </div>
                     </div>
             
-                    <div class="mt-8 lg:col-span-5">
+                    <div class="lg:col-span-5">
                         <form>
-                        <!-- Size picker -->
-                        <div class="mt-8">
-                            <div class="flex items-center justify-between">
-                                <h2 class="text-sm font-medium text-gray-900">Experience</h2>
+                            <div class="mt-8">
+                                <div class="flex items-center justify-between">
+                                    <h2 class="text-sm font-medium text-gray-900">Experience</h2>
+                                </div>
+                
+                                <fieldset class="mt-2">
+                                    <legend class="sr-only">Choose a size</legend>
+                                    <div class="grid grid-cols-2 gap-3 sm:grid-cols-2">
+                                        <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 cursor-pointer focus:outline-none">
+                                            <input type="radio" name="size-choice" value="XXS" class="sr-only" aria-labelledby="size-choice-0-label">
+                                            <span id="size-choice-0-label">🦖 VIP Experience</span>
+                                        </label>
+
+                                        <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white cursor-pointer focus:outline-none">
+                                            <input type="radio" name="size-choice" value="XS" class="sr-only" aria-labelledby="size-choice-1-label">
+                                            <span id="size-choice-1-label">🦕 KIDS Package</span>
+                                        </label>
+                                    </div>
+                                </fieldset>
                             </div>
-            
-                            <fieldset class="mt-2">
-                            <legend class="sr-only">Choose a size</legend>
-                            <div class="grid grid-cols-2 gap-3 sm:grid-cols-2">
-                                <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 cursor-pointer focus:outline-none">
-                                    <input type="radio" name="size-choice" value="XXS" class="sr-only" aria-labelledby="size-choice-0-label">
-                                    <span id="size-choice-0-label">🦖 VIP Experience</span>
-                                </label>
-                                <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 cursor-pointer focus:outline-none">
-                                    <input type="radio" name="size-choice" value="XS" class="sr-only" aria-labelledby="size-choice-1-label">
-                                    <span id="size-choice-1-label">🦕 KIDS Package</span>
-                                </label>
-                            </div>
-                            </fieldset>
-                        </div>
-            
-                        <button type="submit" class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to cart</button>
+                
+                            <button type="submit" class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to cart</button>
                         </form>
             
-                        <!-- Product details -->
                         <div class="mt-10">
-                            <h2 class="text-sm font-medium text-gray-900">Description</h2>
-                
+                            <h2 class="text-sm font-medium text-gray-900">Description</h2>                
                             <div class="prose prose-sm mt-4 text-gray-500">
                                 <p>
                                     Welcome to our Jurassic Park Visit experience! This is the perfect opportunity for dinosaur enthusiasts and adventure seekers alike to explore the wonders of Jurassic Park. Our visit includes access to thrilling rides, interactive exhibits, and up-close encounters with some of the most fascinating creatures to ever roam the earth.</p>
