@@ -1,0 +1,134 @@
+<html class="h-full">
+    <head>
+        <meta charset="UTF-8">
+        <title>Internal Note - Pro-Active Messaging</title>
+        <meta name="description" content="Demo page to showcase the Pro-Active Zendesk Messaging">
+        <meta name="keywords" content="zendesk, messaging, proactive, internal note">
+        <meta name="author" content="Internal Note">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e125418a-9466-44d8-9b3f-2ac10e911ea4"> </script>
+        <script defer data-domain="proactive.internalnote.com" src="https://plausible.io/js/script.js"></script>
+    </head>
+    <body class="h-full">
+        <header class="bg-white">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img class="h-8 w-auto" src="images/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <div type="button" class="toggle_menu -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </div>
+            <div class="links hidden lg:flex lg:gap-x-12">
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">View Article <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            </nav>
+            <!-- Mobile menu, show/hide based on menu open state. -->
+            <div id="sidebar" class="hidden lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-10"></div>
+            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Your Company</span>
+                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                </a>
+                <div type="button" class="toggle_menu -m-2.5 rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+                </div>
+                <div class="mt-6 flow-root">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                    <div class="links_mobile space-y-2 py-6">
+                    </div>
+                    <div class="py-6">
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </header>
+        <main class="grid min-h-full place-items-center -mt-16 bg-white px-6 py-4 sm:py-8 lg:px-8">
+            <div class="bg-white">
+                <div class="pb-16 pt-6 sm:pb-24">
+                <div class="mx-auto mt-8 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+                    <div class="lg:grid lg:auto-rows-min lg:grid-cols-12 lg:gap-x-8">
+                    <div class="lg:col-span-5 lg:col-start-8">
+                        <div class="flex justify-between">
+                        <h1 class="text-xl font-medium text-gray-900">Jurassic Park Tickets</h1>
+                        <p class="text-xl font-medium text-gray-900">$1138</p>
+                        </div>
+                    </div>
+            
+                    <!-- Image gallery -->
+                    <div class="mt-8 lg:col-span-7 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 lg:gap-8">
+                           <img src="images/product.jpg" alt="Entry gate" class="lg:col-span-2 lg:row-span-2 rounded-lg">
+                        </div>
+                    </div>
+            
+                    <div class="mt-8 lg:col-span-5">
+                        <form>
+                        <!-- Size picker -->
+                        <div class="mt-8">
+                            <div class="flex items-center justify-between">
+                                <h2 class="text-sm font-medium text-gray-900">Experience</h2>
+                            </div>
+            
+                            <fieldset class="mt-2">
+                            <legend class="sr-only">Choose a size</legend>
+                            <div class="grid grid-cols-2 gap-3 sm:grid-cols-2">
+                                <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 cursor-pointer focus:outline-none">
+                                    <input type="radio" name="size-choice" value="XXS" class="sr-only" aria-labelledby="size-choice-0-label">
+                                    <span id="size-choice-0-label">🦖 VIP Experience</span>
+                                </label>
+                                <label class="flex items-center justify-center rounded-md border py-3 px-3 text-sm font-medium uppercase sm:flex-1 cursor-pointer focus:outline-none">
+                                    <input type="radio" name="size-choice" value="XS" class="sr-only" aria-labelledby="size-choice-1-label">
+                                    <span id="size-choice-1-label">🦕 KIDS Package</span>
+                                </label>
+                            </div>
+                            </fieldset>
+                        </div>
+            
+                        <button type="submit" class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to cart</button>
+                        </form>
+            
+                        <!-- Product details -->
+                        <div class="mt-10">
+                            <h2 class="text-sm font-medium text-gray-900">Description</h2>
+                
+                            <div class="prose prose-sm mt-4 text-gray-500">
+                                <p>
+                                    Welcome to our Jurassic Park Visit experience! This is the perfect opportunity for dinosaur enthusiasts and adventure seekers alike to explore the wonders of Jurassic Park. Our visit includes access to thrilling rides, interactive exhibits, and up-close encounters with some of the most fascinating creatures to ever roam the earth.</p>
+                                <p class="mt-2">
+                                    You'll have the chance to witness these incredible creatures for yourself and learn about their history and behaviors. Our knowledgeable guides will take you on a journey through time, providing insight into the world of dinosaurs and their place in our planet's history. Don't miss out on this once-in-a-lifetime opportunity – book your Jurassic Park Visit today and get ready for an unforgettable adventure!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+  
+        </main>
+  
+    </body>
+    <script src="js/main.js"></script>
+</html>
