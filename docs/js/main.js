@@ -11,18 +11,20 @@ $(document).ready(function() {
         <a href="product.html?utm_campaign=trex" class="text-sm font-semibold leading-6 text-gray-900">Product Tagged</a>
         <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         <a href="contact.html#vip" class="text-sm font-semibold leading-6 text-gray-900">Contact VIP</a>
+        <a href="french.html" class="text-sm font-semibold leading-6 text-gray-900">Locale</a>
         `);
         $('.links_mobile').html(`
         <a href="product.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
         <a href="product.html?utm_campaign=trex" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product Tagged</a>
         <a href="contact.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
         <a href="contact.html#vip" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact VIP</a>
+        <a href="french.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Locale</a>
     `);
 
     //if page url contains contact
     if (window.location.href.indexOf("contact") > -1) {
         Logout();
-        var random = randomString(16);
+        var random = randomString(16); //this make sure every demo starts with a fresh user.
         if (window.location.href.indexOf("#vip") > -1) {
             Login({
                 name: 'Vito Corleone',
@@ -44,6 +46,9 @@ $(document).ready(function() {
         Logout();
     }
 
+    if (window.location.href.indexOf("french") > -1) {
+        zE('messenger:set', 'locale', 'fr')
+    }
     //JWT Messaging Code, see https://jwt.internalnote.com/messaging.html
     function Logout(){
         zE('messenger', 'logoutUser');
