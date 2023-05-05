@@ -720,6 +720,10 @@ select {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -729,8 +733,17 @@ select {
   bottom: 0px;
 }
 
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
 .right-0 {
   right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .z-10 {
@@ -778,6 +791,11 @@ select {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mt-6 {
@@ -848,8 +866,16 @@ select {
   margin-top: 4rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -892,6 +918,14 @@ select {
   height: 8rem;
 }
 
+.h-0 {
+  height: 0px;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -924,6 +958,10 @@ select {
   width: 8rem;
 }
 
+.w-0\.5 {
+  width: 0.125rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -938,6 +976,10 @@ select {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-none {
+  flex: none;
 }
 
 .flex-shrink-0 {
@@ -1172,6 +1214,10 @@ select {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.fill-current {
+  fill: currentColor;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1276,6 +1322,11 @@ select {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-16 {
@@ -1638,6 +1689,10 @@ select {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:max-w-sm {
     max-width: 24rem;
   }
@@ -1677,6 +1732,14 @@ select {
     align-items: flex-end;
   }
 
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .sm\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
   .sm\:p-6 {
     padding: 1.5rem;
   }
@@ -1710,8 +1773,29 @@ select {
     padding-bottom: 3rem;
   }
 
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .sm\:pb-24 {
     padding-bottom: 6rem;
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .sm\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .sm\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .sm\:pr-3\.5 {
+    padding-right: 0.875rem;
   }
 
   .sm\:text-5xl {
