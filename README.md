@@ -1,26 +1,4 @@
-![banner]()
+![Apple TV 4K Copy 19](https://user-images.githubusercontent.com/894026/236537166-e81e2cd6-1bc7-43d4-a029-86d090ff2690.png)
 
-# Article Title
-
-See the [following article on Internal Note](url) for more info.
-
-![screenshots]()
-
-## actions
-- [] Set URL
-- [] Set Description
-- [] Upload Attachment for webviews 
-
-
-Jurassic park
-DEMO_User
-Proactive
-Messaging_French
-DEMO_VIP
-DEMO_Welcome
-DEMO_Product_Untagged
-DEMO_Product_Tagged
-
-- Add SSO Login to Corleone
-- Add SSO Login to Gladiator
-- Remove SSO Login on other pages
+# Zendesk Proactive Messaging
+See the [following article on Internal Note](https://internalnote.com/proactive-ticketing-for-messaging/) for more info
