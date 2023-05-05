@@ -25,6 +25,7 @@ $(document).ready(function() {
         $('#vip').removeClass('hidden');
         $('#normal').addClass('hidden');
     } else {
-    
+        $('#normal').removeClass('hidden');
+        $('#vip').addClass('hidden');
     }
 });
