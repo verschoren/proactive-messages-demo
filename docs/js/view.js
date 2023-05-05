@@ -10,7 +10,7 @@ $(document).ready(function() {
         <a href="product.html?utm_campaign=trex" class="text-sm font-semibold leading-6 text-gray-900">Product   <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Tagged</span></a>
         <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         <a href="contact.html#vip" class="text-sm font-semibold leading-6 text-gray-900">Contact   <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">VIP</span></a>
-        <a href="french.html" class="text-sm font-semibold leading-6 text-gray-900">🇫🇷 Locale</a>
+        <a href="/fr" class="text-sm font-semibold leading-6 text-gray-900">🇫🇷 Locale</a>
         `);
         $('.links_mobile').html(`
         <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Basic</a>
@@ -18,7 +18,7 @@ $(document).ready(function() {
         <a href="product.html?utm_campaign=trex" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product   <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Tagged</span></a>
         <a href="contact.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
         <a href="contact.html#vip" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact   <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">VIP</span></a>
-        <a href="french.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">🇫🇷 Locale</a>
+        <a href="/fr" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">🇫🇷 Locale</a>
     `);
 
     $('main').append(`
