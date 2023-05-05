@@ -12,15 +12,15 @@ $(document).ready(function() {
         <a href="product.html?utm_campaign=trex" class="text-sm font-semibold leading-6 text-gray-900">Product Tagged</a>
         <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         <a href="contact.html#vip" class="text-sm font-semibold leading-6 text-gray-900">Contact VIP</a>
+        `);
+        $('.links_mobile').html(`
+        <a href="product.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+        <a href="product.html?utm_campaign=trex" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product Tagged</a>
+        <a href="contact.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
+        <a href="contact.html#vip" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact VIP</a>
     `);
-    $('.links_mobile').html(`
-        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
-    `);
-//if page url contains #vip
 
+    //if page url contains #vip
     if (window.location.href.indexOf("#vip") > -1) {
         $('#vip').removeClass('hidden');
         $('#normal').addClass('hidden');
