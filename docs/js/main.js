@@ -1,7 +1,10 @@
 $(document).ready(function() {
-    //Set the locale for the french demo
-    if (window.location.href.indexOf("french") > -1) {
+    //Set the locale for the localised demo
+    if (window.location.href.indexOf("fr") > -1) {
         zE('messenger:set', 'locale', 'fr')
+    }
+    if (window.location.href.indexOf("es") > -1) {
+        zE('messenger:set', 'locale', 'es')
     }
 
     //Logic for the contact page
