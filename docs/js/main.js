@@ -25,7 +25,7 @@ $(document).ready(function() {
         if (window.location.href.indexOf("#vip") > -1) {
             Login({
                 name: 'Vito Corleone',
-                email:'vitocorleone+'+random+'@example.com',
+                email:'vito+'+random+'@corleone.example',
                 external_id: random
             });
             $('#vip').removeClass('hidden');
